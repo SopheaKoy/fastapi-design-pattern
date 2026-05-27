@@ -4,4 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "fastapi[standard]==0.136.3",
+    "SQLAlchemy[asyncio,postgresql-asyncpg]==2.0.50",
+    "python-decouple==3.8",
+    "pytz==2026.2",
+    "pydantic==2.13.0",
+    "pydantic-settings==2.4.0",
+    "XlsxWriter==3.2.9",
+    "redis==7.4.0",
+    "email-validator==2.2.0"
+]
